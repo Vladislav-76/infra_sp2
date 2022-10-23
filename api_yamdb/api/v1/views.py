@@ -11,7 +11,7 @@ from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.decorators import api_view, permission_classes, action
 from django.core.mail import send_mail
-from reviews.models import Title, Review, Genre, Category, Title
+from reviews.models import Title, Review, Genre, Category
 from api.v1.serializers import (AuthSignupSerializer, ReviewSerializer,
                                 CommentSerializer, AuthTokenSerializer,
                                 UserSerializer, GenreSerializer,
